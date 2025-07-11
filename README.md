@@ -1,17 +1,9 @@
-# 🧪 get-papers: PubMed Paper Fetcher CLI
+# Get Papers
 
-A Python CLI tool that fetches PubMed research papers based on a user query and filters for **non-academic authors** from **pharmaceutical or biotech** companies.
+A Python CLI tool to fetch PubMed papers with at least one pharmaceutical or biotech author.
 
----
+## Features
 
-## 📦 Features
-
-- Fetch papers using PubMed's E-utilities API.
-- Filter papers where at least one author is affiliated with a **non-academic company**.
-- Save results as CSV with useful metadata.
-- Command-line interface built using `Typer`.
-
----
-
-## 📁 Project Structure
-
+- Query PubMed with full syntax
+- Filter by non-academic affiliations
+- Output to CSV via CLI
